@@ -1,0 +1,347 @@
+/* ! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/* hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+} */
+
+/* audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    /* padding: 0.2em 0;
+} */
+
+/* site styles */
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/scene1/IMG_2675.JPG') no-repeat;
+    background-size: cover;
+    font-family: soleil, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.bring-forward {
+    z-index: 100;
+}
+
+.intro-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/scene2/Scene\ 2_1.png') no-repeat;
+    background-size: cover;
+}
+
+.intro-page p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 36%;
+    top: 31%;
+    font-family: clarendon-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 165px;
+    color: white;
+}
+
+.intro-layer2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/scene2/Scene\ 2_2.png') no-repeat;
+    background-size: cover;
+}
+
+#intro-subtitle-1 {
+    position: absolute;
+    top: 58%;
+    left: 36%;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#intro-subtitle-2 {
+    position: absolute;
+    top: 62%;
+    left: 36%;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#intro-subtitle-3 {
+    position: absolute;
+    top: 66%;
+    left: 36%;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.intro-layer3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/scene2/Scene\ 2_3.png') no-repeat;
+    background-size: cover;
+}
+
+.note-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #EBEBEB;
+    color: #170701;
+}
+
+.note-content {
+    display: flex;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin: 1.5%;
+}
+
+.v1 {
+    border-left: 3px solid #170701;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: 1.5px;
+    align-self: center;
+}
+
+#note-1 {
+    background-color: #EAD7CD;
+}
+
+#note-2 {
+    background-color: #C9DED1;
+}
+
+#note-3 {
+    background-color: #ffca96;
+}
+
+#note-4 {
+    background-color: #f2b5b7;
+}
+
+#note-5 {
+    background-color: #76b8be;
+}
+
+#note-6 {
+    background-color: #EAD7CD;
+}
+
+#note-7 {
+    background-color: #C9DED1;
+}
+
+#note-8 {
+    background-color: #ffca96;
+}
+
+#note-9 {
+    background-color: #f2b5b7;
+}
+
+#note-10 {
+    background-color: #76b8be;
+}
+
+#note-11 {
+    background-color: #EAD7CD;
+}
+
+#note-12 {
+    background-color: #C9DED1;
+}
+
+#note-13 {
+    background-color: #ffca96;
+}
+
+.note-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.note-section-content {
+    max-height: 75%;
+    width: 75%;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.note-section-content::-webkit-scrollbar {
+    display: none;
+}
+
+.quote-section-content {
+    max-height: 75%;
+    width: 75%;
+    position: relative;
+    font-family: clarendon-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2vw;
+    word-wrap: normal;
+}
+
+#note-2 .quote-section-content {
+    font-size: 1.5vw;
+}
+
+.note-header {
+    font-family: clarendon-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    word-wrap: normal;
+}
+
+.note-signature {
+    font-family: clarendon-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 38px;
+}
+
+
+.note-text {
+    max-height: 50%;
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.husband {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/IMG_0493.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: soleil, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.last {
+    background-color: black;
+    opacity: .4;
+}
+
+#gift-prep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: olivedrab;
+    background-size: cover;
+    background-position: center;
+    font-family: soleil, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+#gift-prep p {
+    position: absolute;
+}
+
+.jm-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
